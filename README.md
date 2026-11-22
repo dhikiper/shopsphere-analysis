@@ -18,6 +18,12 @@ Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 
 ## Findings
 
+### Category performance
+> - **Finding:** Electronics drives the most profit ($120K, 40% of revenue) but has the lowest margin (20.3%). Beauty (45.9%) and Fashion (41.7%) are the most profitable per dollar sold.
+> - **Evidence:** Delivered orders only, 2024-2025. Revenue is net of discounts.
+> - **Interpretation:** Growth in Electronics adds profit but is vulnerable to discounting. High-margin categories have headroom to scale.
+> - **Recommendation:** Protect Electronics margin (limit discounts), and grow Beauty and Fashion through promotion and cross-selling.
+
 ### Indonesia Q3 2025 cancellation spike
 > - **Finding:** Indonesia's cancel rate hit 28.5% in Q3 2025 (82 of 288 orders), versus a normal 1-5%. It recovered to 3.2% in Q4.
 > - **Evidence:** The spike hit nearly all device and payment combinations. Other countries stayed at 1-4%.
