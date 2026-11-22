@@ -28,3 +28,19 @@ SELECT
 FROM cust c
 JOIN sales s USING (acquisition_channel)
 ORDER BY profit_per_customer DESC;
+
+WITH per_customer AS (
+  SELECT c.acquisition_channel, o.customer_id, COUNT(*) AS n_orders
+  FROM `shopsphere-515504.shopsphere.orders` o
+  JOIN `shopsphere-515504.shopsphere.customers` c USING (customer_id)
+  WHERE o.status = 'Delivered'
+  GROUP BY c.acquisition_channel, o.customer_id
+)
+SELECT
+  acquisition_channel,
+  COUNT(*) AS buyers,
+  COUNTIF(n_orders >= 2) AS repeat_buyers,
+  ROUND(COUNTIF(n_orders >= 2) / COUNT(*) * 100, 1) AS repeat_rate_pct
+FROM per_customer
+GROUP BY acquisition_channel
+ORDER BY repeat_rate_pct DESC;
