@@ -48,3 +48,9 @@ Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 > - **Evidence:** Cohort analysis of customers who signed up before July 2025 (month 0 is lower at 6.3% because signup falls mid-month).
 > - **Interpretation:** Customers return steadily rather than churning early. Monthly active share is a sign of steady engagement, not total retention.
 > - **Recommendation:** Track retention beyond 6 months, and test re-engagement campaigns in the months when customers are least active.
+
+## Dashboard
+🔗 [View live dashboard](https://datastudio.google.com/s/vzcjbHvQq5c)
+
+![Overview](dashboard/dashboard_overview.png)
+![Retention](dashboard/dashboard_retention.png)
