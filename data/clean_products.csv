@@ -1,0 +1,121 @@
+product_id,product_name,category,unit_price,unit_cost
+P0001,Electronics Item 1,Electronics,316.36,239.2
+P0002,Electronics Item 2,Electronics,347.68,253.9
+P0003,Electronics Item 3,Electronics,64.85,45.55
+P0004,Electronics Item 4,Electronics,311.62,224.8
+P0005,Electronics Item 5,Electronics,77.4,58.43
+P0006,Electronics Item 6,Electronics,167.2,118.26
+P0007,Electronics Item 7,Electronics,268.23,192.52
+P0008,Electronics Item 8,Electronics,194.06,150.84
+P0009,Electronics Item 9,Electronics,235.2,186.66
+P0010,Electronics Item 10,Electronics,336.22,247.74
+P0011,Electronics Item 11,Electronics,310.49,237.38
+P0012,Electronics Item 12,Electronics,389.16,276.57
+P0013,Electronics Item 13,Electronics,318.0,248.21
+P0014,Electronics Item 14,Electronics,202.69,161.26
+P0015,Electronics Item 15,Electronics,87.09,63.72
+P0016,Electronics Item 16,Electronics,305.56,214.88
+P0017,Electronics Item 17,Electronics,150.56,114.87
+P0018,Electronics Item 18,Electronics,203.74,159.13
+P0019,Electronics Item 19,Electronics,78.07,58.74
+P0020,Electronics Item 20,Electronics,113.96,83.53
+P0021,Home Item 1,Home & Kitchen,71.2,42.96
+P0022,Home Item 2,Home & Kitchen,108.04,73.06
+P0023,Home Item 3,Home & Kitchen,126.52,76.84
+P0024,Home Item 4,Home & Kitchen,64.25,43.67
+P0025,Home Item 5,Home & Kitchen,105.55,73.93
+P0026,Home Item 6,Home & Kitchen,37.99,27.31
+P0027,Home Item 7,Home & Kitchen,120.17,75.34
+P0028,Home Item 8,Home & Kitchen,108.72,66.4
+P0029,Home Item 9,Home & Kitchen,74.25,47.55
+P0030,Home Item 10,Home & Kitchen,29.57,20.82
+P0031,Home Item 11,Home & Kitchen,103.58,67.75
+P0032,Home Item 12,Home & Kitchen,89.13,54.63
+P0033,Home Item 13,Home & Kitchen,98.86,63.52
+P0034,Home Item 14,Home & Kitchen,88.29,59.81
+P0035,Home Item 15,Home & Kitchen,14.31,9.43
+P0036,Home Item 16,Home & Kitchen,40.04,26.54
+P0037,Home Item 17,Home & Kitchen,129.48,88.98
+P0038,Home Item 18,Home & Kitchen,18.16,12.36
+P0039,Home Item 19,Home & Kitchen,51.1,32.06
+P0040,Home Item 20,Home & Kitchen,87.98,53.69
+P0041,Fashion Item 1,Fashion,84.75,48.04
+P0042,Fashion Item 2,Fashion,100.47,61.28
+P0043,Fashion Item 3,Fashion,17.38,10.84
+P0044,Fashion Item 4,Fashion,90.85,50.59
+P0045,Fashion Item 5,Fashion,31.93,17.56
+P0046,Fashion Item 6,Fashion,30.99,15.95
+P0047,Fashion Item 7,Fashion,61.85,35.34
+P0048,Fashion Item 8,Fashion,46.66,24.57
+P0049,Fashion Item 9,Fashion,52.99,33.08
+P0050,Fashion Item 10,Fashion,27.39,12.79
+P0051,Fashion Item 11,Fashion,110.4,56.75
+P0052,Fashion Item 12,Fashion,42.92,19.98
+P0053,Fashion Item 13,Fashion,96.77,49.45
+P0054,Fashion Item 14,Fashion,62.18,36.75
+P0055,Fashion Item 15,Fashion,25.12,12.0
+P0056,Fashion Item 16,Fashion,62.86,37.94
+P0057,Fashion Item 17,Fashion,47.13,25.25
+P0058,Fashion Item 18,Fashion,33.56,16.3
+P0059,Fashion Item 19,Fashion,94.64,48.31
+P0060,Fashion Item 20,Fashion,60.37,31.82
+P0061,Beauty Item 1,Beauty,48.81,22.94
+P0062,Beauty Item 2,Beauty,11.33,5.86
+P0063,Beauty Item 3,Beauty,8.12,4.07
+P0064,Beauty Item 4,Beauty,29.74,16.98
+P0065,Beauty Item 5,Beauty,12.76,6.16
+P0066,Beauty Item 6,Beauty,17.79,7.38
+P0067,Beauty Item 7,Beauty,48.58,25.78
+P0068,Beauty Item 8,Beauty,49.32,29.37
+P0069,Beauty Item 9,Beauty,76.89,38.72
+P0070,Beauty Item 10,Beauty,63.71,37.17
+P0071,Beauty Item 11,Beauty,41.5,20.83
+P0072,Beauty Item 12,Beauty,75.34,36.59
+P0073,Beauty Item 13,Beauty,40.51,22.14
+P0074,Beauty Item 14,Beauty,29.87,14.81
+P0075,Beauty Item 15,Beauty,37.92,22.59
+P0076,Beauty Item 16,Beauty,66.97,28.18
+P0077,Beauty Item 17,Beauty,15.52,7.59
+P0078,Beauty Item 18,Beauty,13.14,6.12
+P0079,Beauty Item 19,Beauty,26.09,12.21
+P0080,Beauty Item 20,Beauty,59.52,26.56
+P0081,Sports Item 1,Sports,30.47,19.81
+P0082,Sports Item 2,Sports,53.74,40.6
+P0083,Sports Item 3,Sports,115.42,82.58
+P0084,Sports Item 4,Sports,167.66,111.16
+P0085,Sports Item 5,Sports,70.26,45.36
+P0086,Sports Item 6,Sports,65.27,45.57
+P0087,Sports Item 7,Sports,58.63,37.97
+P0088,Sports Item 8,Sports,41.28,31.15
+P0089,Sports Item 9,Sports,92.67,59.39
+P0090,Sports Item 10,Sports,179.42,120.24
+P0091,Sports Item 11,Sports,179.25,117.01
+P0092,Sports Item 12,Sports,108.58,78.4
+P0093,Sports Item 13,Sports,156.68,106.64
+P0094,Sports Item 14,Sports,80.99,60.63
+P0095,Sports Item 15,Sports,151.89,110.65
+P0096,Sports Item 16,Sports,187.99,137.44
+P0097,Sports Item 17,Sports,33.32,22.0
+P0098,Sports Item 18,Sports,39.12,28.89
+P0099,Sports Item 19,Sports,123.88,81.15
+P0100,Sports Item 20,Sports,47.32,34.2
+P0101,Books Item 1,Books,32.21,16.89
+P0102,Books Item 2,Books,22.53,14.8
+P0103,Books Item 3,Books,5.49,3.53
+P0104,Books Item 4,Books,9.61,5.49
+P0105,Books Item 5,Books,9.26,5.55
+P0106,Books Item 6,Books,29.3,17.2
+P0107,Books Item 7,Books,11.99,6.61
+P0108,Books Item 8,Books,30.04,16.88
+P0109,Books Item 9,Books,9.59,6.33
+P0110,Books Item 10,Books,37.46,23.09
+P0111,Books Item 11,Books,15.53,9.35
+P0112,Books Item 12,Books,28.2,14.86
+P0113,Books Item 13,Books,15.03,8.0
+P0114,Books Item 14,Books,5.87,3.47
+P0115,Books Item 15,Books,27.19,18.03
+P0116,Books Item 16,Books,9.91,6.07
+P0117,Books Item 17,Books,38.82,22.7
+P0118,Books Item 18,Books,37.66,20.76
+P0119,Books Item 19,Books,21.36,11.84
+P0120,Books Item 20,Books,5.62,3.72
