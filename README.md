@@ -14,7 +14,7 @@ Analyze 2 years of e-commerce data to find what drives profit and what hurts it.
 Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 
 ## Status
-🚧 In progress
+✅ Completed
 
 ## Findings
 
