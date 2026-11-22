@@ -36,3 +36,9 @@ Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 > - **Evidence:** Buyer conversion (70-72%) and repeat rate (60-63%) are similar across all 5 channels. Differences are mainly in order value (Referral and Email about $182 vs about $171).
 > - **Caveat:** No acquisition cost data, so ROI can't be calculated. The gaps are small and directional.
 > - **Recommendation:** Invest in the referral program, and add cost data to compare channels on ROI.
+
+### Customer retention
+> - **Finding:** About 11-12% of customers order in any given month during their first 6 months, with no decline after month 1.
+> - **Evidence:** Cohort analysis of customers who signed up before July 2025 (month 0 is lower at 6.3% because signup falls mid-month).
+> - **Interpretation:** Customers return steadily rather than churning early. Monthly active share is a sign of steady engagement, not total retention.
+> - **Recommendation:** Track retention beyond 6 months, and test re-engagement campaigns in the months when customers are least active.
