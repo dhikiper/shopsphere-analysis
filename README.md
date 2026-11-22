@@ -30,3 +30,9 @@ Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 > - **Evidence:** Average discount rose from 5.7% to 30.5%, but orders per day grew only 11%. Margin dropped from 28.2% to 2.1%.
 > - **Interpretation:** The volume lift did not cover the margin given away.
 > - **Recommendation:** Cap discounts at about 15-20%, target them at high-margin categories, and test with a control group before the next sale.
+
+### Acquisition channel quality
+> - **Finding:** Referral customers are the most valuable ($82 profit per customer vs $74 for Organic) and repeat at 62.5%.
+> - **Evidence:** Buyer conversion (70-72%) and repeat rate (60-63%) are similar across all 5 channels. Differences are mainly in order value (Referral and Email about $182 vs about $171).
+> - **Caveat:** No acquisition cost data, so ROI can't be calculated. The gaps are small and directional.
+> - **Recommendation:** Invest in the referral program, and add cost data to compare channels on ROI.
