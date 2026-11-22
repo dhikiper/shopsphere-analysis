@@ -1,24 +1,42 @@
 # ShopSphere E-commerce Analysis
 
+End-to-end analysis of 2 years of simulated e-commerce data (2024-2025): data cleaning, SQL analysis, and an interactive dashboard.
+
+🔗 **[View live dashboard](https://datastudio.google.com/s/vzcjbHvQq5c)**
+
+![Overview](dashboard/dashboard_overview.png)
+![Retention](dashboard/dashboard_retention.png)
+
 ## Objective
-Analyze 2 years of e-commerce data to find what drives profit and what hurts it.
+Find what drives profit and what hurts it, and turn the findings into clear recommendations.
 
-## Business Questions
-1. Which product categories drive revenue and profit?
-2. What caused the Q3 2025 cancellation spike in Indonesia?
-3. Did Black Friday 2025 discounts increase profit?
-4. Which acquisition channel brings the best customers?
-5. How well are customers retained over time?
+## Key Findings
+1. **Categories:** Electronics drives the most profit but has the lowest margin (20.3%). Beauty (45.9%) and Fashion (41.7%) are the most profitable per dollar.
+2. **Indonesia Q3 2025:** cancel rate hit 28.5% versus a normal 1-5%, costing $15,948 in revenue.
+3. **Black Friday 2025:** a 30.5% average discount lifted orders per day by only 11%, while profit per day fell 94%.
+4. **Channels:** Referral customers are the most valuable ($82 profit per customer vs $74 for Organic).
+5. **Retention:** about 11-12% of customers order in any given month, with no decline over the first 6 months.
 
-## Tools
-Python (Colab), SQL (BigQuery), Looker Studio, GitHub
+## Dataset
+Synthetic data generated with `data/generate_data.py`:
+- `customers` (5,000), `products` (120), `orders` (8,803), `order_items` (15,136)
+- Dirty data was injected on purpose to practice cleaning.
 
-## Status
-✅ Completed
+## Data Cleaning Decisions
+- 60 duplicate customers removed by `customer_id`.
+- Country names standardized to 6 values (e.g. "usa", "US" became "United States").
+- Invalid ages (0, -1, 150) set to missing, not guessed.
+- Missing discounts assumed 0, with a flag column added.
+- Missing shipping costs filled with the median.
+- 25 rows with negative quantities dropped.
 
-## Findings
+## Metrics
+- **Revenue** = quantity × unit_price × (1 − discount_pct/100)
+- **Profit** = revenue − (quantity × unit_cost)
+- **Cancel rate** = cancelled orders ÷ total orders
+- Revenue and profit use **Delivered** orders only.
 
-### Category performance
+## Findings in Detail### Category performance
 > - **Finding:** Electronics drives the most profit ($120K, 40% of revenue) but has the lowest margin (20.3%). Beauty (45.9%) and Fashion (41.7%) are the most profitable per dollar sold.
 > - **Evidence:** Delivered orders only, 2024-2025. Revenue is net of discounts.
 > - **Interpretation:** Growth in Electronics adds profit but is vulnerable to discounting. High-margin categories have headroom to scale.
@@ -49,8 +67,24 @@ Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 > - **Interpretation:** Customers return steadily rather than churning early. Monthly active share is a sign of steady engagement, not total retention.
 > - **Recommendation:** Track retention beyond 6 months, and test re-engagement campaigns in the months when customers are least active.
 
-## Dashboard
-🔗 [View live dashboard](https://datastudio.google.com/s/vzcjbHvQq5c)
+## Limitations
+- Data is simulated, so patterns (e.g. flat retention) may not match real businesses.
+- No acquisition cost data, so channel ROI could not be calculated.
+- Black Friday was compared with the 4 weeks before it, with no control group.
+- Causes (e.g. logistics in Indonesia) are inferred, not proven.
 
-![Overview](dashboard/dashboard_overview.png)
-![Retention](dashboard/dashboard_retention.png)
+## Tools
+Python (pandas, Google Colab), SQL (BigQuery), Looker Studio, GitHub
+
+## Project Structure
+- `data/`: raw and cleaned CSVs, data generator
+- `notebooks/`: cleaning notebook
+- `sql/`: analysis queries (01-07)
+- `dashboard/`: dashboard screenshots
+
+## How to Reproduce
+1. Run `data/generate_data.py` (or use the CSVs).
+2. Clean the data with `notebooks/01_data_cleaning.ipynb`.
+3. Upload cleaned tables to BigQuery.
+4. Run the SQL files in `sql/` in order.
+5. Connect `fact_sales` and `cohort_retention` to Looker Studio.
