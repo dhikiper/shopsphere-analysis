@@ -24,3 +24,9 @@ Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 > - **Impact:** $15,948 in cancelled revenue in one quarter.
 > - **Interpretation:** Consistent with a country-wide logistics or fulfillment problem, not a device or payment bug.
 > - **Recommendation:** Review Q3 2025 delivery partners and delivery times in Indonesia, and set a cancel-rate alert at about 8%.
+
+### Black Friday 2025 discounts
+> - **Finding:** Black Friday week (Nov 24-30) cut profit per day by 94% versus the prior 4 weeks ($70 vs $1,157), while revenue per day fell 18%.
+> - **Evidence:** Average discount rose from 5.7% to 30.5%, but orders per day grew only 11%. Margin dropped from 28.2% to 2.1%.
+> - **Interpretation:** The volume lift did not cover the margin given away.
+> - **Recommendation:** Cap discounts at about 15-20%, target them at high-margin categories, and test with a control group before the next sale.
