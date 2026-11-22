@@ -15,3 +15,12 @@ Python (Colab), SQL (BigQuery), Looker Studio, GitHub
 
 ## Status
 🚧 In progress
+
+## Findings
+
+### Indonesia Q3 2025 cancellation spike
+> - **Finding:** Indonesia's cancel rate hit 28.5% in Q3 2025 (82 of 288 orders), versus a normal 1-5%. It recovered to 3.2% in Q4.
+> - **Evidence:** The spike hit nearly all device and payment combinations. Other countries stayed at 1-4%.
+> - **Impact:** $15,948 in cancelled revenue in one quarter.
+> - **Interpretation:** Consistent with a country-wide logistics or fulfillment problem, not a device or payment bug.
+> - **Recommendation:** Review Q3 2025 delivery partners and delivery times in Indonesia, and set a cancel-rate alert at about 8%.
